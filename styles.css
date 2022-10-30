@@ -8,6 +8,27 @@ body {
   background-color: #d9d9d9;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: #3c6e71;
+  width: 100%;
+  justify-content: space-around;
+  padding: 15px;
+  margin-left: -10px;
+}
+
+nav a {
+  color: #bab9b9;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+  color: white;
+}
+
 h1,
 h2 {
   font-family: Raleway;
@@ -15,11 +36,12 @@ h2 {
 
 h1 {
   text-shadow: 2px 3px #bab9b9;
+  margin-top: 70px;
 }
 
 h2 {
   padding-top: 10px;
-  text-shadow: 2px 1px #3d637d;
+  text-shadow: 2px 1px #436f8d;
 }
 
 .image {
@@ -43,10 +65,6 @@ section a {
   color: #d9d9d9;
 }
 
-section a:hover {
-  color: #353535;
-}
-
 ul {
   color: #d9d9d9;
   display: block;
@@ -55,23 +73,55 @@ ul {
   list-style-position: inside;
   width: 400px;
   padding-right: 50px;
+  padding-bottom: 12px;
 }
 
 ul li {
   padding-bottom: 8px;
 }
 
+.aboutMe li {
+  padding-right: 90px;
+}
+
 .aboutMe {
+  background-color: #284b63;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+.biography {
   background-color: #284b63;
   border-radius: 20px;
   width: 500px;
   margin: auto;
+  margin-bottom: 60px;
 }
 
 .contact {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
   background-color: #3c6e71;
-  border-radius: 20px;
-  width: 600px;
-  margin: auto;
-  padding-bottom: 10px;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-left: -10px;
+  color: #bab9b9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.contact a {
+  align-self: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #284b63;
+}
+
+footer p:first-child {
+  font-family: Raleway;
+  text-shadow: 2px 1px #284b63;
+  text-decoration: underline;
 }
