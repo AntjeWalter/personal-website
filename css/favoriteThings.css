@@ -3,6 +3,7 @@
   border-radius: 20px;
   width: 400px;
   margin: auto;
+  position: relative;
 }
 
 .games__list {
@@ -13,11 +14,20 @@
   padding-right: 90px;
 }
 
+.fa-gamepad {
+  font-size: 2rem;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  color: white;
+}
+
 .food {
   background-color: #284b63;
   border-radius: 20px;
   width: 400px;
   margin: auto;
+  position: relative;
 }
 
 .food__list {
@@ -28,12 +38,21 @@
   padding-right: 90px;
 }
 
+.fa-burger {
+  position: absolute;
+  font-size: 2rem;
+  top: 4px;
+  right: 10px;
+  color: white;
+}
+
 .animals {
   background-color: #284b63;
   border-radius: 20px;
   width: 400px;
   margin: auto;
   margin-bottom: 60px;
+  position: relative;
 }
 
 .animals__list {
@@ -42,4 +61,12 @@
 
 .animals__list li {
   padding-right: 90px;
+}
+
+.fa-paw {
+  position: absolute;
+  font-size: 2rem;
+  top: 4px;
+  right: 10px;
+  color: white;
 }
