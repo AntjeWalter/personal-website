@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+.contact {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3c6e71;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-left: -10px;
+  color: #bab9b9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.contact a {
+  align-self: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #284b63;
+}
+
+footer p:first-child {
+  font-family: Raleway;
+  text-shadow: 2px 1px #284b63;
+  text-decoration: underline;
+}

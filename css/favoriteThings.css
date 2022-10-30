@@ -1,0 +1,14 @@
+.games {
+  background-color: #284b63;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+.games__list {
+  padding-bottom: 8px;
+}
+
+.games__list li {
+  padding-right: 90px;
+}
