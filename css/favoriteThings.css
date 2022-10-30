@@ -12,3 +12,34 @@
 .games__list li {
   padding-right: 90px;
 }
+
+.food {
+  background-color: #284b63;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+.food__list {
+  padding-bottom: 8px;
+}
+
+.food__list li {
+  padding-right: 90px;
+}
+
+.animals {
+  background-color: #284b63;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.animals__list {
+  padding-bottom: 8px;
+}
+
+.animals__list li {
+  padding-right: 90px;
+}
