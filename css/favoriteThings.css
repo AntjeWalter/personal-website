@@ -1,49 +1,10 @@
-.games {
-  background-color: #284b63;
-  border-radius: 20px;
-  width: 400px;
-  margin: auto;
-  position: relative;
-}
-
-.games__list {
-  padding-bottom: 8px;
-}
-
-.games__list li {
-  padding-right: 90px;
-}
-
-.fa-gamepad {
-  font-size: 2rem;
-  position: absolute;
-  top: 4px;
-  right: 10px;
-  color: white;
-}
-
+.games,
 .food {
   background-color: #284b63;
   border-radius: 20px;
   width: 400px;
   margin: auto;
   position: relative;
-}
-
-.food__list {
-  padding-bottom: 8px;
-}
-
-.food__list li {
-  padding-right: 90px;
-}
-
-.fa-burger {
-  position: absolute;
-  font-size: 2rem;
-  top: 4px;
-  right: 10px;
-  color: white;
 }
 
 .animals {
@@ -55,18 +16,30 @@
   position: relative;
 }
 
+.games__list {
+  padding-bottom: 8px;
+}
+
+.games__list li {
+  padding-right: 90px;
+}
+
+.fa-gamepad,
+.fa-burger,
+.fa-paw {
+  font-size: 2rem;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  color: white;
+}
+
+.food__list,
 .animals__list {
   padding-bottom: 8px;
 }
 
+.food__list li,
 .animals__list li {
   padding-right: 90px;
-}
-
-.fa-paw {
-  position: absolute;
-  font-size: 2rem;
-  top: 4px;
-  right: 10px;
-  color: white;
 }
