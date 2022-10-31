@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+body {
+  text-align: center;
+  background-color: #d9d9d9;
+  width: 100%;
+}
+
+h1,
+h2 {
+  font-family: Raleway;
+}
+
+h1 {
+  text-shadow: 2px 3px #bab9b9;
+  margin-top: 70px;
+}
+
+h2 {
+  padding-top: 10px;
+  text-shadow: 2px 1px #436f8d;
+}

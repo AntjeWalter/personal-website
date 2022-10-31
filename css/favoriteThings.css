@@ -1,0 +1,45 @@
+.games,
+.food {
+  background-color: #284b63;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  position: relative;
+}
+
+.animals {
+  background-color: #284b63;
+  border-radius: 20px;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.games__list {
+  padding-bottom: 8px;
+}
+
+.games__list li {
+  padding-right: 90px;
+}
+
+.fa-gamepad,
+.fa-burger,
+.fa-paw {
+  font-size: 2rem;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  color: white;
+}
+
+.food__list,
+.animals__list {
+  padding-bottom: 8px;
+}
+
+.food__list li,
+.animals__list li {
+  padding-right: 90px;
+}
